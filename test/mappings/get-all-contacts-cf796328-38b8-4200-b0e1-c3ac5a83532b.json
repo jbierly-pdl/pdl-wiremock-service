@@ -1,0 +1,28 @@
+{
+  "id": "cf796328-38b8-4200-b0e1-c3ac5a83532b",
+  "name": "GET all contacts",
+  "request": {
+    "urlPath": "/v1/contacts",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\r\n  \"contacts\": [\r\n    {\r\n      \"id\": \"11111\",\r\n      \"firstName\": \"Tom\",\r\n      \"lastName\": \"Smith\",\r\n      \"email\": \"tom.smith@example.com\",\r\n      \"dateAdded\": \"2021-01-03\",\r\n      \"companyId\": \"123\"\r\n    },\r\n    {\r\n      \"id\": \"22222\",\r\n      \"firstName\": \"Suki\",\r\n      \"lastName\": \"Patel\",\r\n      \"email\": \"spatel@example.com\",\r\n      \"dateAdded\": \"2020-11-12\",\r\n      \"companyId\": \"123\"\r\n    },\r\n    {\r\n      \"id\": \"33333\",\r\n      \"firstName\": \"Lexine\",\r\n      \"lastName\": \"Barnfield\",\r\n      \"email\": \"barnfield8@example.com\",\r\n      \"dateAdded\": \"2021-01-03\",\r\n      \"companyId\": \"234\"\r\n    },\r\n    {\r\n      \"id\": \"44444\",\r\n      \"firstName\": \"Jeremy\",\r\n      \"lastName\": \"Bierly\",\r\n      \"email\": \"jeremybierly@me.com\",\r\n      \"dateAdded\": \"2023-01-25\",\r\n      \"companyId\": \"123\"\r\n    }\r\n  ]\r\n}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "cf796328-38b8-4200-b0e1-c3ac5a83532b",
+  "persistent": true,
+  "priority": 5,
+  "metadata": {
+    "mocklab": {
+      "created": {
+        "at": "2021-01-04T11:51:43.187Z",
+        "via": "ADMIN_API",
+        "by": "7p1dp"
+      }
+    }
+  },
+  "insertionIndex": 7
+}

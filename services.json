@@ -1,0 +1,10 @@
+{
+  "services": [
+    {
+      "id": "g16q2",
+      "name": "Test",
+      "port": 8080,
+      "rootDir": "test"
+    }
+  ]
+}
